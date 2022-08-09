@@ -47,7 +47,7 @@ const NewPost = () => {
   return (
     <div className="newPost">
       <form className="newPostForm" onSubmit={submitHandler}>
-        <Typography variant="h3">New Post</Typography>
+        <div className="changeFont"><h3>Create Post</h3></div>
 
         {image && <img src={image} alt="post" />}
         <input type="file" accept="image/*" onChange={handleImageChange} />

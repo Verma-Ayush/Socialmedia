@@ -76,7 +76,7 @@ const Account = () => {
             />
           ))
         ) : (
-          <Typography variant="h6">You have not made any post</Typography>
+          <div className="changeFont">You have not made any post</div>
         )}
       </div>
       <div className="accountright">
@@ -85,18 +85,18 @@ const Account = () => {
           sx={{ height: "8vmax", width: "8vmax" }}
         />
 
-        <Typography variant="h5">{user.name}</Typography>
+        <div className="acchead"><h4>{user.name}</h4></div>
 
         <div>
           <button onClick={() => setFollowersToggle(!followersToggle)}>
-            <Typography>Followers</Typography>
+            <div>Followers</div>
           </button>
-          <Typography>{user.followers.length}</Typography>
+          <div>{user.followers.length}</div>
         </div>
 
         <div>
           <button onClick={() => setFollowingToggle(!followingToggle)}>
-            <Typography>Following</Typography>
+            <div>Following</div>
           </button>
           <Typography>{user.following.length}</Typography>
         </div>

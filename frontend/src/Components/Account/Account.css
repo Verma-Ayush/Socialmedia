@@ -15,6 +15,10 @@
   box-sizing: border-box;
   overflow-y: auto;
 }
+.acchead{
+  font-family: 'Papyrus';
+  font-size: 1.5rem;
+}
 .accountright {
   padding: 2vmax;
   box-sizing: border-box;

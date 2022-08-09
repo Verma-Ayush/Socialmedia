@@ -3,7 +3,9 @@ import "./Loader.css";
 const Loader = () => {
   return (
     <div className="loadingPage">
-      <div className="loadingCircle"></div>
+      <div className="loader">
+        <i class="fa-duotone fa-loader"></i>
+      </div>
     </div>
   );
 };
